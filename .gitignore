@@ -1,3 +1,6 @@
 .DS_stores
-encrypteds
-scurity
+secrets.txt
+
+*.txt
+
+#log files
