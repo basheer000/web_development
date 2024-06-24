@@ -1,0 +1,101 @@
+*{
+    margin: 9px;
+    text-align: center;
+    size: portrait;
+    padding: 2xpx 5px 5px 10px;
+    border: 50px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(istockphoto-1399105128-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: blueviolet;
+    border: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    left: 500px;
+    right: 100px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: brown;
+    border: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    left: 500px;
+    right: 100px;
+}
+
+
+p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: italic;
+    font-weight: 100;
+    word-spacing: 8px;
+    position: relative;
+    color: chocolate;
+}
+
+section{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    color: cadetblue;
+    left: 10px;
+    right: 100px;
+}
+
+label{
+    font-size: 15px;
+    color: cornflowerblue;
+    font-style: normal;
+}
+
+input{
+    background-blend-mode: color;
+}
+
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    position: relative;
+    right: 100px;
+}
+
+button{
+    background-color: yellowgreen;
+    border: 10px;
+    color: rebeccapurple;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: small;
+    animation: infinite;
+}
+
+footer{
+    font-style: oblique;
+    font-size: medium;
+    color: cornflowerblue;
+}

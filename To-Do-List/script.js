@@ -1,22 +1,23 @@
 const inputBox = document.getElementById("input-box");
-const listConstainer = document.getElementById("input-box");
-function addTask{
+const listContainer = document.getElementById("list-container");
+
+function addTask(){
     if(inputBox.value === ''){
         alert("you must write something!");
     }
     else{
         let li = document.createElement("li");
-        li.innerHTML=inputBox.value;
-        listConstainer.appendChild(li);
+        li.innerHTML = inputBox.value;
+        listContainer.appendChild(li);
         let span = document.createElement("span");
         span.innerHTML = "\u00d7";
         li.appendChild(span);
     }
-    inputBox.value("empty");
+    inputBox.value("");
     saveData();
 }
 
-listConstainer.addEventListener("click", function(e){
+listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
         saveData();
@@ -26,13 +27,12 @@ listConstainer.addEventListener("click", function(e){
         e.target.parentElement.remove();
         saveData();
     }
-}false);
+}, false);
 function saveData (){
-    localStorage.se
-    tItem("data",listConstainer.innerHTML);
+    localStorage.setItem("data", listContainer.innerHTML);
 }
 
 function showTask(){
-    listConstainer.innerHTML = localStorage.getItem("data");
+    listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();

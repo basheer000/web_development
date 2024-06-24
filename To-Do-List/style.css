@@ -52,14 +52,18 @@ input{
 }
 
 button {
-    padding: 10px;
+    padding: 11px 10px;
     outline: none;
     border: none;
-    background: green;
-    color: whitesmoke;
+    background: #ff5945;
+    color: #fff;
     border-radius: 40px;
     cursor: pointer;
     font-size: 16px;
+    text-align: center;
+}
+button:hover{
+    background: #218838;
 }
 
 ul li{
